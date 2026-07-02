@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>
+Trámites y Servicios SAS | Comparendos, Licencias y Acuerdos de Pago
+</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="{{ url_for('static', filename='css/estilos.css') }}">
+
+        <link rel="icon"
+href="{{ url_for('static', filename='img/logo.png') }}">
+
+<meta name="description"
+content="Asesoría en comparendos, licencias, acuerdos de pago y trámites legales en Colombia.">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+
+    <div class="container">
+
+        <a class="navbar-brand d-flex align-items-center" href="/">
+
+            <img
+            src="{{ url_for('static', filename='img/logo.png') }}"
+            alt="Logo"
+            height="75"
+            class="me-3">
+
+            <div>
+
+                <h4 class="m-0 fw-bold text-dark">
+                    TRÁMITES Y SERVICIOS SAS
+                </h4>
+
+                <small class="text-secondary">
+                    Soluciones legales, resultados reales
+                </small>
+
+            </div>
+
+        </a>
+
+        <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+
+            <ul class="navbar-nav ms-auto align-items-center">
+
+            
+
+<li class="nav-item">
+    <a class="nav-link" href="#inicio">Inicio</a>
+</li>
+
+<li class="nav-item">
+    <a class="nav-link" href="#comparendos">Comparendos</a>
+</li>
+
+<li class="nav-item">
+    <a class="nav-link" href="#licencias">Licencias</a>
+</li>
+
+<li class="nav-item">
+    <a class="nav-link" href="#acuerdos">Sobre nosotros</a>
+</li>
+
+<li class="nav-item">
+    <a class="nav-link" href="#contacto">Contacto</a>
+</li>
+                </li>
+
+                <li class="nav-item ms-2">
+                    <a 
+href="https://wa.me/573224212076"
+target="_blank"
+class="btn btn-warning">
+Solicitar Asesoría
+</a>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+   
+
+   <!-- HERO -->
+
+<section class="hero" id="inicio">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+
+            <div class="col-md-6">
+
+
+                <h1 class="display-4 fw-bold">
+
+                    Soluciones legales
+                    para tus trámites
+
+                </h1>
+
+
+                <p class="lead mt-3">
+
+                    Te ayudamos con comparendos, multas,
+                    acuerdos de pago, licencias y procesos
+                    administrativos.
+
+                    Recibe asesoría profesional y soluciones reales.
+
+                </p>
+
+
+                <a 
+                href="https://wa.me/573224212076"
+                target="_blank"
+                class="btn btn-warning btn-lg mt-3">
+
+                    Solicitar Asesoría
+
+                </a>
+
+
+                <div class="mt-4">
+
+                    <small class="text-muted">
+
+                        ✓ Atención personalizada  
+                        ✓ Gestión rápida  
+                        ✓ Acompañamiento profesional
+
+                    </small>
+
+                </div>
+
+
+            </div>
+
+
+
+           
+                <div class="col-md-6 text-center">
+
+                    <img
+src="{{ url_for('static', filename='img/asesora.png') }}"
+class="img-fluid asesora">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ESTADÍSTICAS -->
+
+    <section class="container text-center py-5">
+
+        <div class="row">
+
+            <div class="col-md-3">
+
+                <h2>+5000</h2>
+
+                <p>Casos Gestionados</p>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <h2>24h</h2>
+
+                <p>Tiempo de Respuesta</p>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <h2>95%</h2>
+
+                <p>Casos Exitosos</p>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <h2>100%</h2>
+
+                <p>Atención Digital</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SERVICIOS -->
+
+    <section class="container py-5">
+
+        <h2 class="text-center mb-5">
+            Nuestros Servicios
+        </h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-3">
+
+                <div class="card h-100 shadow">
+
+                    <div class="card-body text-center">
+
+                        <h1>🚗</h1>
+
+                        <h4>Comparendos</h4>
+
+                        <p>
+                            Asesoría y gestión de comparendos.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <div class="card h-100 shadow">
+
+                    <div class="card-body text-center">
+
+                        <h1>💳</h1>
+
+                        <h4>Sobre nosotros</h4>
+
+                        <p>
+                            Facilidades de pago y asesoría.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <div class="card h-100 shadow">
+
+                    <div class="card-body text-center">
+
+                        <h1>🪪</h1>
+
+                        <h4>Licencias</h4>
+
+                        <p>
+                            Renovación y gestión documental.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <div class="card h-100 shadow">
+
+                    <div class="card-body text-center">
+
+                        <h1>⚖️</h1>
+
+                        <h4>Asesoría Jurídica</h4>
+
+                        <p>
+                            Recursos y defensa administrativa.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    
+   
+
+<!-- POR QUÉ ELEGIRNOS -->
+
+<section class="porque-elegirnos">
+
+<div class="container">
+
+
+<h2 class="text-center mb-3">
+    ¿Por qué elegirnos?
+</h2>
+
+
+<p class="text-center subtitulo">
+
+En Trámites y Servicios SAS trabajamos para brindarte
+soluciones legales confiables, ágiles y efectivas.
+
+</p>
+
+
+
+<div class="row g-4 mt-4">
+
+
+
+<div class="col-md-3">
+
+<div class="beneficio-card">
+
+<div class="icono">⚖️</div>
+
+<h3>Confianza</h3>
+
+<p>
+Trabajamos con responsabilidad y transparencia
+para brindarte seguridad en cada proceso.
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-md-3">
+
+<div class="beneficio-card">
+
+<div class="icono">👩‍💼</div>
+
+<h3>Asesoría personalizada</h3>
+
+<p>
+Te acompañamos paso a paso con orientación clara
+y soluciones adaptadas a tu caso.
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-md-3">
+
+<div class="beneficio-card">
+
+<div class="icono">🚀</div>
+
+<h3>Agilidad</h3>
+
+<p>
+Optimizamos tus trámites para ofrecer procesos
+eficientes y sin complicaciones.
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-md-3">
+
+<div class="beneficio-card">
+
+<div class="icono">✅</div>
+
+<h3>Soluciones reales</h3>
+
+<p>
+Nuestro compromiso es ayudarte a resolver
+tus necesidades con resultados efectivos.
+</p>
+
+</div>
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+</section>
+
+<!-- NUESTRO PROCESO -->
+
+<section class="container py-5">
+
+    <h2 class="text-center mb-5">
+        ¿Cómo trabajamos?
+    </h2>
+
+    <div class="row text-center">
+
+        <div class="col-md-3">
+            <h1>1️⃣</h1>
+            <h4>Cuéntanos tu caso</h4>
+            <p>Analizamos tu situación y resolvemos tus dudas.</p>
+        </div>
+
+        <div class="col-md-3">
+            <h1>2️⃣</h1>
+            <h4>Revisión</h4>
+            <p>Evaluamos documentos y verificamos las opciones disponibles.</p>
+        </div>
+
+        <div class="col-md-3">
+            <h1>3️⃣</h1>
+            <h4>Gestión</h4>
+            <p>Realizamos el trámite con seguimiento constante.</p>
+        </div>
+
+        <div class="col-md-3">
+            <h1>4️⃣</h1>
+            <h4>Resultado</h4>
+            <p>Te entregamos una solución clara y efectiva.</p>
+        </div>
+
+    </div>
+
+</section>
+<!-- TESTIMONIOS -->
+
+<section class="container py-5">
+
+    <h2 class="text-center mb-5">
+        Lo que dicen nuestros clientes
+    </h2>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+
+            <div class="card shadow h-100">
+
+                <div class="card-body text-center">
+
+                    <h4>⭐⭐⭐⭐⭐</h4>
+
+                    <p class="mt-3">
+                        Gracias a Trámites y Servicios SAS pude resolver mi situación de tránsito de forma rápida y sin complicaciones. Excelente atención.
+                    </p>
+
+                    <strong>María González</strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="card shadow h-100">
+
+                <div class="card-body text-center">
+
+                    <h4>⭐⭐⭐⭐⭐</h4>
+
+                    <p class="mt-3">
+                        Me ayudaron con un acuerdo de pago y siempre estuvieron atentos a cada etapa del proceso. Muy recomendados.
+                    </p>
+
+                    <strong>Carlos Rodríguez</strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="card shadow h-100">
+
+                <div class="card-body text-center">
+
+                    <h4>⭐⭐⭐⭐⭐</h4>
+
+                    <p class="mt-3">
+                        Recibí asesoría clara y profesional para la renovación de mi licencia. Todo el proceso fue muy ágil.
+                    </p>
+
+                    <strong>Laura Martínez</strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- IMAGEN-->
+ <section class="imagen-separador">
+    <div class="container text-center">
+       <img src="{{ url_for('static', filename='img/PORTADAF.png') }}"
+     alt="Trámites de Movilidad"
+     class="img-fluid rounded shadow">
+    </div>
+</section>
+
+<!-- SERVICIOS -->
+
+<section id="comparendos" class="container py-5">
+
+    <h2 class="text-center mb-4">
+        Comparendos de Tránsito
+    </h2>
+
+    <p class="text-center">
+
+        ¿Recibiste un comparendo y no sabes cómo actuar?
+        En Trámites y Servicios SAS te brindamos asesoría
+        para revisar tu caso y acompañarte durante todo el proceso.
+
+    </p>
+
+    <ul class="mt-4">
+
+        <li>✔ Consulta de comparendos.</li>
+
+        <li>✔ Revisión del estado del proceso.</li>
+
+        <li>✔ Recursos y apelaciones.</li>
+
+        <li>✔ Orientación jurídica.</li>
+
+        <li>✔ Seguimiento del trámite.</li>
+    </ul>
+</section>
+<!-- LICENCIAS -->
+
+<section id="licencias" class="container py-5">
+
+    <h2 class="text-center mb-4">
+        Licencias de Conducción
+    </h2>
+
+    <p class="text-center">
+
+        Gestionamos los trámites relacionados con tu licencia
+        de conducción de forma rápida y segura.
+
+    </p>
+
+    <ul class="mt-4">
+
+        <li>✔ Expedición.</li>
+
+        <li>✔ Renovación.</li>
+
+        <li>✔ Duplicados.</li>
+
+        <li>✔ Recategorización.</li>
+
+        <li>✔ Actualización de datos.</li>
+
+    </ul>
+
+</section>
+
+<!-- ACUERDOS -->
+
+<section id="acuerdos" class="container py-5">
+
+    <h2 class="text-center mb-4">
+        Sobre nosotros
+    </h2>
+
+    <p class="text-center">
+
+        Si tienes multas pendientes, te asesoramos para
+        solicitar acuerdos de pago y normalizar tu situación.
+
+    </p>
+
+    <ul class="mt-4">
+
+        <li>✔ Estudio del caso.</li>
+
+        <li>✔ Revisión de requisitos.</li>
+
+        <li>✔ Solicitud del acuerdo.</li>
+
+        <li>✔ Seguimiento del proceso.</li>
+
+        <li>✔ Asesoría personalizada.</li>
+
+    </ul>
+
+</section>
+<!-- INFORMACIÓN LEGAL -->
+
+<section id="informacion-legal" class="container py-5">
+
+    <h2 class="text-center mb-3 fw-bold">
+        📄 Consulta nuestra información legal y jurídica
+    </h2>
+
+    <p class="text-center text-muted mb-5">
+        En <strong>Trámites y Servicios SAS</strong> trabajamos con transparencia y compromiso. 
+        Para brindarte mayor confianza, ponemos a tu disposición nuestro Certificado de Existencia y Representación Legal expedido por la Cámara de Comercio, donde podrás verificar la información oficial de nuestra empresa.
+    </p>
+
+    <div class="shadow rounded overflow-hidden">
+
+        <iframe
+            src="{{ url_for('static', filename='pdf/camarComercio.pdf') }}"
+            width="100%"
+            height="650"
+            style="border: none;">
+        </iframe>
+
+    </div>
+
+    <div class="text-center mt-4">
+
+        <a href="{{ url_for('static', filename='pdf/camarComercio.pdf') }}"
+           target="_blank"
+           class="btn btn-warning btn-lg">
+           📥 Descargar Certificado en PDF
+
+
+        </a>
+
+    </div>
+
+</section>
+<!-- FORMULARIO -->
+
+<section class="container py-5" id="contacto">
+
+    <div class="card shadow border-0">
+
+        <div class="card-body p-5">
+
+            <h2 class="text-center mb-3">
+                Solicita una Asesoría Gratuita
+            </h2>
+
+            <p class="text-center text-muted mb-4">
+                Déjanos tus datos y nos pondremos en contacto contigo.
+            </p>
+
+            <form id="formularioWhatsapp"><body>
+
+<header>
+   <!-- logo y menú -->
+</header>
+<!-- AQUÍ VAN LAS NUEVAS SECCIONES -->
+
+<section id="comparendos">
+</section>
+
+<section id="licencias">
+   
+</section>
+
+<section id="acuerdos">
+  
+</section>
+
+<section id="contacto">
+  
+</section>
+
+</body>
+
+                <div class="row">
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+                            Nombre Completo
+                        </label>
+
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="nombre"
+                            required>
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+                            Teléfono
+                        </label>
+
+                        <input
+                            type="tel"
+                            class="form-control"
+                            id="telefono"
+                            required>
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+                            Correo Electrónico
+                        </label>
+
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="correo">
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+                            Tipo de Trámite
+                        </label>
+
+                        <select
+                            class="form-select"
+                            id="tramite">
+
+                            <option selected>
+                                Selecciona una opción
+                            </option>
+
+                            <option>
+                                Comparendos
+                            </option>
+
+                            <option>
+                                Sobre nosotros
+                            </option>
+
+                            <option>
+                                Licencias
+                            </option>
+
+                            <option>
+                                Asesoría Jurídica
+                            </option>
+
+                            <option>
+                                Otro
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <div class="mb-4">
+
+                    <label class="form-label">
+                        Describe tu caso
+                    </label>
+
+                    <textarea
+                        class="form-control"
+                        rows="5"
+                        id="mensaje"
+                        placeholder="Cuéntanos en qué podemos ayudarte"></textarea>
+
+                </div>
+
+                <button
+                    type="submit"
+                    class="btn btn-success btn-lg w-100">
+
+                    Enviar por WhatsApp
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- LLAMADA A LA ACCIÓN -->
+
+<section class="bg-primary text-white text-center py-5">
+
+    <div class="container">
+
+        <h2>
+            ¿Necesitas ayuda con tu trámite?
+        </h2>
+
+        <p class="lead mt-3">
+            Nuestro equipo está listo para brindarte asesoría profesional y soluciones efectivas.
+        </p>
+
+        <a
+            href="https://wa.me/573224212076"
+            target="_blank"
+            class="btn btn-warning btn-lg mt-3">
+
+            Solicitar Asesoría Ahora
+
+        </a>
+
+    </div>
+
+</section>
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <div class="container text-center">
+
+            <h5>Trámites y Servicios SAS</h5>
+
+            <p>
+                Soluciones rápidas para comparendos,
+                multas y licencias.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<a
+href="https://wa.me/573224212076"
+class="whatsapp-float"
+target="_blank">
+
+<img
+src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+width="38">
+
+</a>
+<script>
+
+document.getElementById("formularioWhatsapp")
+.addEventListener("submit", function(e){
+
+    e.preventDefault();
+
+    let nombre =
+        document.getElementById("nombre").value;
+
+    let telefono =
+        document.getElementById("telefono").value;
+
+    let correo =
+        document.getElementById("correo").value;
+
+    let tramite =
+        document.getElementById("tramite").value;
+
+    let mensaje =
+        document.getElementById("mensaje").value;
+
+
+    let texto =
+`*NUEVA SOLICITUD DE ASESORÍA*%0A%0A
+👤 Nombre: ${nombre}%0A
+📞 Teléfono: ${telefono}%0A
+📧 Correo: ${correo}%0A
+📋 Trámite: ${tramite}%0A
+📝 Caso: ${mensaje}`;
+
+
+    window.open(
+        `https://wa.me/573219792821?text=${texto}`,
+        "_blank"
+    );
+
+});
+
+</script>
+</body>
+
+</html>
